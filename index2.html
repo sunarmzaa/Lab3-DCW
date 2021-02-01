@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body style="background-color: wheat ; text-align: centers">
+
+    <div class="container">
+        <div class="user"><img src="user.png" alt="user"></div><br />
+        <from action="#">
+            <div class="title">
+                <h1>Login</h1>
+            </div>
+            <div class="from">
+                <input id="p1" type="text" name="username" placeholder="Username"><br /><br />
+                <input id="p2" type="pasword" name="password" placeholder="Password"><br /></br>
+            </div>
+
+            <div id="p3" class="signin_button">
+                <button onclick="send()">Sign in</button>
+            </div>
+
+        </from>
+
+    </div>
+
+    <script>
+        const send = () => {
+            var user = document.getElementById("p1").value;
+            var pass = document.getElementById("p2").value;
+
+
+            if (user === "foo" && pass === "bar") {
+                console.log("correct")
+                alert("Correct")
+            }
+            else {
+                console.log("Incorrect")
+                alert("Incorrect")
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

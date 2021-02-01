@@ -1,0 +1,64 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.user{
+    margin-top: 20px;
+}
+
+.container{
+    border: 2px solid black;
+    width: 400px;
+    margin: 50px auto;
+    background-color: skyblue;
+    text-align: center;
+}
+
+.signin_button{
+    font-size: 1.2rem;
+    /*border: 2px solid pink;*/
+    border-radius: 10px;
+    padding: 0px 150px 0px 150px;
+    margin-bottom: 20px;
+}
+
+.signin{
+    /*border: 2px solid green;*/
+    display: flex;
+    justify-content: center;
+}
+
+
+input [type=text], input[type=password]{
+    font-size: 1.6rem;
+    width: 350px;
+    height: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+input[type=submit]{
+    font-size: 1rem;
+    width: 150px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+
+
+
+/*
+h1 {
+    color:sandybrown;
+    border: 2px dashed red;
+    margin: 5px 10px 20px 30px;
+    text-align: center;
+    border-radius: 10px;
+    height: 50px    ;
+}
+*/
+
